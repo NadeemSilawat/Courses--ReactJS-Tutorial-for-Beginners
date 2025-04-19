@@ -1,4 +1,4 @@
-import React ,{Component} from "react";
+import React ,{Component} from "react"; // "rce"(shortcut) for class component
 
 class Counter extends Component{
 
@@ -9,14 +9,15 @@ class Counter extends Component{
         }
     }
  increment(){
-    // this.setState({
-    //     count: this.state.count + 1
-    // }, () =>{console.log("Callback value", this.state.count)})
-    // console.log(this.state.count)
-    this.setState((prevState) => ({
-        count: prevState.count + 1
-    }))
+    this.setState({
+        count: this.state.count + 1
+    }, () =>{console.log("Callback value", this.state.count)})
     console.log(this.state.count)
+  
+    // this.setState((prevState) => ({
+    //     count: prevState.count + 1
+    // }))
+    // console.log(this.state.count)
  }
  decrement(){
     this.setState({

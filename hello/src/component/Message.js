@@ -5,7 +5,7 @@ class Message extends React.Component{
         super()
         this.state = {
             message: 'Welcome Visitor'
-        }
+        }   
     }
     changeMessage(){
         this.setState({
