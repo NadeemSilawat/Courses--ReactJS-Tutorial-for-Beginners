@@ -1,0 +1,37 @@
+.primary{
+    color: blue;
+}
+
+.font-xl{
+    font-size : 40px;
+    TEXT-DECORATION: underline;
+    font-weight: bold;  
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    text-transform: uppercase;
+    background-color: lightgray;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0   .5);
+    margin: 20px;
+    transition: all 0.3s ease;
+    
+}
+.form_button{
+    margin: 10px;
+}
+.form_button:hover{
+    background-color: lightblue;
+    color: white;
+    cursor: pointer;
+}
+
+.formHandling{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+    /* padding: 10px; */
+}
