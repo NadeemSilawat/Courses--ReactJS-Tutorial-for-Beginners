@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import Hello from './Hello'
+// import Hello from './Hello'
 
 class UserGreeting extends Component {
   
