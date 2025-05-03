@@ -27,7 +27,7 @@ function NameList() {
       age: 35,
       skill: 'JavaScript',
     },
-  ]);
+  ]); 
 
   // New Way
   const PersonList = persons.map((person) => <Person key ={person.id} person={person} />);
