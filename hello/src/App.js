@@ -12,19 +12,60 @@ import './App.css';
 // import EventBind from './component/EventBind.js';
 // import ParentComponent from './component/ParentComponent.js';
 // import UserGreeting from './component/UserGreeting.js';
-import NameList from './component/NameList.js';
+// import NameList from './component/NameList.js';
 // import Stylesheet from './component/Stylesheet.js';
 // import Inline from './component/Inline.js';
+// import LlifeCylcleA from './component/LifeCycleA.js/';
+// import ParentComp from './component/ParentComp.js';
+// import RefsDemo from './component/RefsDemo';
+// import Apple from './component/Apple';
+// import FocusInput from './component/FocusInput.js';
+// import PortalDemo from './component/PortalDemo.js';
+// import Hero from './component/Hero.js';
+// import ErrorBoundary from './component/ErrorBoundary.js';
+
+// import CounterClick from './component/CounterClick';
+// import HoverCounter from './component/HoverCounter';
+
+import ClickCounterTwo from './component/ClickCounterTwo';
+import HoverCounterTwo from './component/HoverCounterTwo';
+import User from './component/User.js';
 
 
 class App extends Component {
   render() {
-    return (
+    return (  
       <div className="App">
+
+        <ClickCounterTwo />
+        <HoverCounterTwo />
+        <User name= {()=>"Nadeem"}/>
+
+        {/* <CounterClick />
+        <HoverCounter/> */}
+
+    {/* 
+          <ErrorBoundary>
+            <Hero heroname={"Batman"} />
+            </ErrorBoundary>
+          <ErrorBoundary>
+            <Hero heroname={"Superman"} />
+          </ErrorBoundary>
+          <ErrorBoundary>
+            <Hero heroname={"Joker"} />
+          </ErrorBoundary>
+          <ErrorBoundary /> 
+    */}
+      {/* <PortalDemo /> */}
+        {/* <FocusInput /> */}
+        {/* <Apple /> */}
+        {/* <RefsDemo /> */}
+        {/* <ParentComp /> */}
+        {/* <LlifeCylcleA /> */}
         {/* <Form/> */}
         {/* <Inline/> */}
         {/* <Stylesheet primary={true}/> */}
-        <NameList/>
+        {/* <NameList/> */}
         {/* <UserGreeting/> */}
         {/* <ParentComponent /> //Methos as Props */}  
         {/* <FunctionClick />  */}
